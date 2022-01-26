@@ -1,0 +1,21 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 65%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    display: block;
+    font-size: 2pt;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}

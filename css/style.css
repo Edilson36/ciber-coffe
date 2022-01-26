@@ -1,0 +1,51 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 65%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.header{
+    margin: 0;
+    display: block;
+    font-size: 12pt;
+    background: url('../assets/img/restaurant-interior.jpg'), linear-gradient(rgba(10, 10, 10, 0.5), rgba(5, 5, 5, 0.5));
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    height: 90vh;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.brand{
+    padding: .5rem;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    padding: 1.5rem;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+.navigator{
+    display: flex;
+}
